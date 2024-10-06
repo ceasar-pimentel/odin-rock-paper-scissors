@@ -9,23 +9,36 @@
   </head>
   <body>
     <div id="header">
-        <div id="score-container"></div>
-        <div id="round-container"></div>
+      <div id="score-container" class="header-item">
+        <div>Score:</div>
+        <div id="score-label"></div>
+      </div>
+      <div class="header-item"></div>
+      <div id="round-container" class="header-item">
+        <div>Round:</div>
+        <div id="round-label"></div>
+      </div>
     </div>
     <div id="main-container">
-      <div class="container-item"></div>
-      <div class="container-item"></div>
-      <div class="container-item"></div>
+      <div class="container-item">User</div>
+      <div class="container-item">Result</div>
+      <div class="container-item">Computer</div>
     </div>
-    <div>
-        <div>
+    <div id="footer-container">
+        <div class="footer-item">
+            <form id="rounds-input">
+                <label>Rounds</label>
+                <input type="text" placeholder="how many rounds?" readonly>
+            </form>
+        </div>
+      <div class="footer-item">
         <button>Rock</button>
         <button>Paper</button>
         <button>Scissors</button>
-        </div>
-        <div>
-            <button>Reset</button>
-        </div>
+      </div>
+      <div class="footer-item">
+        <button>Start/Restart</button>
+      </div>
     </div>
   </body>
 </html>

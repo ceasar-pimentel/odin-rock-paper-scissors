@@ -68,7 +68,7 @@ function determineWinner(userChoice, computerChoice) {
         return scissors[computerChoice];
     }
 }
-
+/*
 let runGame = true;
 
 while (runGame) {
@@ -78,4 +78,6 @@ while (runGame) {
 
     result = determineWinner(convertedChoice, compChoice);
     alert(`you ${result}`);
+
 }
+    */
